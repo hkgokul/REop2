@@ -1,0 +1,75 @@
+html,body{
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Cubano-Regular';
+    background: url(../img/pattern.jpg) center center;
+}
+
+@font-face{
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('Cubano-Regular.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+#cover{
+    height: 100%;
+    background: url(../img/trees.jpg) center;
+    background-size: cover;
+    color: cornsilk;
+}
+
+/* section cover */
+.col-sm-3{
+    padding-left: 10%;
+}
+.wall-sticker{
+    margin: 0;
+    padding: 8rem 16rem 12rem 3rem;
+    font-size: 50px;
+    color: whitesmoke;
+    background: rgba(0,0,0,.4);    
+}
+
+.moto{
+    margin-top: 200px;
+    margin-left: 290px;
+    text-align: center;
+}
+
+/* Buttons */
+
+.btn-lg{
+    background-color: rgba(0,0,0,0);
+    font-family:Nunito-Regular;
+    border-radius: 5px;
+    border: 1px solid rgba(19,128,26,1);
+    color: rgba(255, 255, 255, 0.6);
+    transition: .7s;
+}
+
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active{
+    background-color: rgba(19,128,26,.5);
+    border: 1px solid rgba(0,0,0,0);
+    transition: .7s;
+}
+
+.fa-arrow-down{
+    margin-left: 540px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: seashell;
+}
+
+
+.bold-green{
+    color: chartreuse;
+}
+.green-underline{
+    color: chocolate;
+    
+}
