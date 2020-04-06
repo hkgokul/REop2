@@ -55,7 +55,7 @@ html,body{
 .btn-lg:active{
     background-color: rgba(19,128,26,.5);
     border: 1px solid rgba(0,0,0,0);
-    transition: .7s;
+    transition: .5s;
 }
 
 .fa-arrow-down{
@@ -71,5 +71,7 @@ html,body{
 }
 .green-underline{
     color: chocolate;
-    
+    border-bottom: solid springgreen 3px;
 }
+
+/* Navbar */
