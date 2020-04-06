@@ -65,9 +65,9 @@ html,body{
     color: seashell;
 }
 
-
+/* Spans */
 .bold-green{
-    color: chartreuse;
+    color:rgba(19,128,26,1);
 }
 .green-underline{
     color: chocolate;
@@ -75,3 +75,30 @@ html,body{
 }
 
 /* Navbar */
+.btn-srch{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgba(19,128,26,1);
+    margin-left: 3px;
+    color: rgba(19,128,26,1);
+    transition: .7s;
+}
+
+.btn-srch:hover,
+.btn-srch:focus,
+.btn-srch:active{
+    background-color: rgba(19,128,26,1);
+    border: 1px solid rgba(0,0,0,0);
+    color: black;
+    transition: .5s;
+}    
+
+#main-nav li a{
+    border-bottom: 1px  solid   rgba(19,128,26,0);
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#main-nav li a:hover{
+    border-bottom: 1px  solid   rgba(19,128,26,1);
+    transition: .5s;
+}
