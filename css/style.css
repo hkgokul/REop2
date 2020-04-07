@@ -16,7 +16,7 @@ html,body{
 
 #cover{
     height: 100%;
-    background: url(../img/inside.jpg) center;
+    background: url(../img/trees.jpg) center;
     background-size: cover;
     color: cornsilk;
 }
@@ -29,15 +29,15 @@ html,body{
     margin: 0;
     padding: 8rem 16rem 12rem 3rem;
     font-size: 50px;
-    color: rgb(228, 21, 21, 0.9);
+    color:whitesmoke;
     background: rgba(0,0,0,.4);   
     background-size: cover;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Cubano-Regular', cursive;
     font-weight: lighter;
 }
 
 .moto{
-    margin-top: 200px;
+    margin-top: 170px;
     margin-left: 290px;
     text-align: center;
 }
@@ -104,4 +104,37 @@ html,body{
 #main-nav li a:hover{
     border-bottom: 1px  solid   rgba(19,128,26,1);
     transition: .5s;
+}
+
+/* Section Features */
+
+#features h2, .under-heading{
+    text-align: center;
+}
+
+.section-features{
+    padding: 5rem 0;
+    background: url(../img/pattern.jpg) center center;
+}
+
+.square{
+    text-align: center;
+}
+.square i{
+    margin-top: 3rem;
+    transition: .3s;
+    margin-bottom: 0.6rem;
+}
+.square i:hover{
+    color: rgba(19,128,26,1);
+    transition: .3s;
+}
+.square p{
+    font-family: Nunito-Regular;
+    font-size: 1rem;
+}
+.green-hr{
+    margin-bottom: 0.6rem;
+    background-color: rgba(19,128,26,1);
+    width: 5rem;
 }
