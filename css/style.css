@@ -108,7 +108,8 @@ html,body{
 
 /* Section Features */
 
-#features h2, .under-heading{
+.heading,
+.under-heading{
     text-align: center;
 }
 
@@ -138,3 +139,4 @@ html,body{
     background-color: rgba(19,128,26,1);
     width: 5rem;
 }
+
