@@ -68,6 +68,13 @@ html,body{
     color: seashell;
 }
 
+.parallax-btn{
+    width: 20%;
+    margin: 5% auto 0 auto;
+    font-size: 95%;
+    color: lemonchiffon;
+}
+
 /* Spans */
 .bold-green{
     color:rgba(19,128,26,1);
@@ -223,6 +230,23 @@ html,body{
 }
 
 
+/* section Parallax */
+
+#section-parallax {
+    text-align: center;
+    background: url(../img/trees.jpg) center repeat fixed;
+    padding: 7% 0; 
+    background-size: cover;
+    color: lemonchiffon;
+}
+
+/* Section Cards */
+#section-cards{
+    padding: 5% 0;
+}
+h2{
+    text-align: center;
+}
 
 
 
