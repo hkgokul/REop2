@@ -16,7 +16,7 @@ html,body{
 
 #cover{
     height: 100%;
-    background: url(../img/trees.jpg) center;
+    background: url(../img/back.jpg) center;
     background-size: cover;
     color: cornsilk;
 }
@@ -248,6 +248,84 @@ h2{
     text-align: center;
 }
 
+.card h4{
+    padding-top: 7%;
+}
+.card h6{
+    padding-bottom: 7%;
+}
+
+.card p{
+    padding-top: 6%;
+} 
+.card{
+    margin-top:12%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+.card a{
+    color: rgba(19,128,26,0.8);
+    
+    transition: 0.5s;
+
+
+}
+.card a:hover{
+    color: rgba(19,128,26,1);
+    transition: 0.5s;
+}
+
+.card img{
+    width: 348px;
+    height: 321;
+    margin-left: -5%;
+    transition: 0.5s;
+}
+
+.card img:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+
+/* Section Numbers */
+.section-numbers{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.num-content{
+    display: table;
+    font-size: 20px;
+    line-height: 20px;
+    width: 140px;
+    height: 140px;
+    background-color: rgba(19,128,26,1);
+    border-radius: 50%;
+    color: white;
+    transition: 0.5s;
+}
+.num-content{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.num{
+    padding-top: 20%;
+}
+
+.num-content p{
+    margin-top: 10%;
+}
+
+
+.num-content:hover{
+    color: black;
+    transition: 0.5s;
+}
 
 
 
