@@ -388,3 +388,44 @@ blockquote{
     transition: .4s;
 } 
 
+/* Section Footer */
+.footer{
+    background-color: #222;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.foot{
+    text-align: center;
+}
+.foot p{
+    color: #888;
+}
+
+.social-link a:link,
+.social-link a:visited{
+    text-decoration: none;
+    color: #888;
+}
+
+
+.fa-facebook{
+    transition: 0.5s;
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+    transition: 0.5s;
+}
+
+.fa-chevron-up{
+    color: #888;
+    transition: 0.5s;
+
+}
+.fa-chevron-up:hover{
+    color: rgba(19,128,26,1);
+    transition: 0.5s;
+
+
+}
+
