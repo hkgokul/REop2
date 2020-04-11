@@ -277,8 +277,7 @@ h2{
 }
 
 .card img{
-    width: 348px;
-    height: 321;
+  
     margin-left: -5%;
     transition: 0.5s;
 }
