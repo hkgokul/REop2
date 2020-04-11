@@ -16,7 +16,7 @@ html,body{
 
 #cover{
     height: 100%;
-    background: url(../img/back.jpg) center;
+    background: url(../img/trees.jpg) center;
     background-size: cover;
     color: cornsilk;
 }
@@ -327,13 +327,65 @@ h2{
     transition: 0.5s;
 }
 
+/* Section-Testimonials */
+.section-testimonials{
+    padding-top: 5%;
+}
+
+.Testimonial{
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+.monice-img,
+.monka-img,
+.mario-img{
+    width: 135px;
+    border-radius: 50%;
+}
+.Testimonial .col-sm-8{
+    padding-left: 10%;
+}
+blockquote{
+    font-family: Nunito-regular;
+}
+.fa-quote-right{
+    padding-right: 10px;
+}
+.testimonial-hr{
+    border-top: 1px solid rgba(19,128,26,1);
+    width: 200px;
+}
+
+/* Section Contact */
+
+.section-contact{
+    background-color: white;
+    padding: 7% 0 7% 0;
+}
+
+.control-label{
+    margin-top: 3px;
+    font-size: 20px;
+    float: right !important;
+}
+#contact .btn{
+    color: white;
+    transition: 0.5s;
+    background-color: rgba(19, 128, 26, 0.7);
+    width: 150px;
+    text-align: center;
+}
+#contact .btn:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: rgba(19,128,26,1);
+}
 
 
-
-
-
-
-
-
-
+.form-control:focus {
+    border-color: rgba(19,128,36,0.23) !important;
+    box-shadow: inset 0px 0 2px 2px rgba(0, 0, 0, 0.075), 0 0 2px rgba(22, 22, 22, 0.023) !important;
+    transition: .4s;
+} 
 
